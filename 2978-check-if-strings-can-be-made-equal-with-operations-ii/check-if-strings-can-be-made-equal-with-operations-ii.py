@@ -8,4 +8,6 @@ class Solution:
         
         
         return sorted(odd1) == sorted(odd2) and sorted(even1) == sorted(even2)
+
+#return sorted(s1[::2]) == sorted(s2[::2]) and sorted(s1[1::2]) == sorted(s2[1::2])
         
