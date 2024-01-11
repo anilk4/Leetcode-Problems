@@ -6,7 +6,8 @@ class Solution:
         while right < len(nums):
             if nums[right] > nums[left]:
                 current = nums[right] - nums[left]
-                maxi = max(maxi, current)
+                if current > maxi:
+                    maxi = current
                 right += 1
             else:
                 left = right
