@@ -7,4 +7,6 @@ class Solution:
                 count1 += 1
         
         count0 = l - count1
-        return '1'*(count1-1) + '0'*(count0) + '1'
+       
+        res = '1'*(count1-1) + '0'*(count0) + '1'
+        return res
