@@ -3,7 +3,7 @@ class Solution:
         correct = 0
 
         for s, e in zip(startTime, endTime):
-            if s <= queryTime and e >= queryTime:
+            if s <= queryTime <= e:
                 correct += 1
             
         return correct
